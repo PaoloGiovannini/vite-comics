@@ -63,6 +63,7 @@
     span{
       vertical-align: middle ;
       color: $text-main;
+      margin-left: 10px;
     }
   }
 
