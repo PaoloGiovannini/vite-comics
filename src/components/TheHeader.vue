@@ -69,9 +69,7 @@ export default {
 <style scoped lang="scss">
 @use"../styles/partials/variables" as *;
 .container{
-    max-width: 1170px;
-    margin: auto;
-    padding: 10px;
+    padding: 30px 0px;
 
     img{
         width: 70px;

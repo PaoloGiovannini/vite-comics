@@ -1,3 +1,4 @@
+@use "./partials/variables" as *;
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +7,7 @@
 
 body{
     font-family: sans-serif;
+    
 }
 
 .d-flex{
@@ -17,7 +19,7 @@ body{
 }
 
 .flex-center{
-align-items: center ;
+    align-items: center ;
 }
 
 ul li{
@@ -27,5 +29,10 @@ ul li{
 a{
     text-decoration: none;
     
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
 }
 
