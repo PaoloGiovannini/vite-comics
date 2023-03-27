@@ -1,13 +1,13 @@
 <script>
 import TheHeader from "./components/TheHeader.vue";
 import TheMain from "./components/TheMain.vue";
-import TheFooterUp from "./components/TheFooterUp.vue";
+import TheFooter from "./components/TheFooter.vue";
 
 export default {
   components: {
     TheHeader,
     TheMain,
-    TheFooterUp
+    TheFooter
   }
 };
 </script>
@@ -15,7 +15,7 @@ export default {
 <template>
   <TheHeader></TheHeader>
   <TheMain></TheMain>
-  <TheFooterUp></TheFooterUp>
+  <TheFooter></TheFooter>
   
 </template>
 

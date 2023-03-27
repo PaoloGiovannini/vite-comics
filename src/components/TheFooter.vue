@@ -1,6 +1,6 @@
 <script>
     export default {
-      name: "TheFooterUp",
+      name: "TheFooter",
       data() {
         return {
             DcComics: [
@@ -134,6 +134,9 @@
 </script>
     
 <template>
+  <footer>
+
+  
     <div class="wrap">
         <div class="container d-flex">
             <div>
@@ -168,7 +171,22 @@
             </div>
         </div>
     </div>
-
+    <div class="wrapper">
+      <div class="container-footer d-flex space-between flex-center">
+        <div class="button-sign-up">
+          <span>SIGN-UP NOW</span>
+        </div>
+      <div>
+        <span class="follow">FOLLOW US</span>
+        <img src="../assets/footer-facebook.png" alt="">
+        <img src="../assets/footer-twitter.png" alt="">
+        <img src="../assets/footer-youtube.png" alt="">
+        <img src="../assets/footer-pinterest.png" alt="">
+        <img src="../assets/footer-periscope.png" alt="">
+      </div>
+      </div>
+    </div>
+  </footer>
 </template>
     
 <style scoped lang="scss">
@@ -178,27 +196,59 @@
     background-image: url(../assets/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-.container{
-    background-image: url(../assets/dc-logo-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-h3{
-    margin: 20px 0px;
-    color: $text-main;
+      .container{
+        background-image: url(../assets/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 35px 0px;
+
+        ul li{
+          padding: 3px 0px;
+
+          a{
+            color:#959595;
+          }   
+        }
+
+        .sites{
+          margin-left: 10px;
+        } 
+
+        h3{
+          color: $text-main;
+          padding: 15px 0px;
+        }
+      }
 }
 
-ul li{
-    padding: 3px 0px;
-    
-}
-a{
-    color:#959595;;
+.wrapper{
+  background-color: $footer-bg;
+  padding: 30px 0px;
+  .container-footer{
+  max-width: 1170px;
+  margin: auto;
+
+    .button-sign-up{
+      color: $text-main;
+      border: 3px solid $color-hover;
+      padding: 15px 10px;
+    }
+    img{
+      display: inline;
+      vertical-align: middle;
+      padding: 0px 7px;
+    }
+
+    .follow{
+      color: $color-hover;
+      font-weight: bold;
+      font-size: 20px;
+      vertical-align: middle;
+      margin-right: 7px;
+    }
 }
 
-.sites{
-    margin-left: 10px;
 }
+
 
 </style>
