@@ -19,7 +19,7 @@
     .fumetto-card {
         & img {
             width: 180px;
-            height: 180px;
+            height: 250px;
         }
         
         & p{
