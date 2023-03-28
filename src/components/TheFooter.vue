@@ -6,123 +6,123 @@
             DcComics: [
             {
               text: "Characters",
-              href: "#",
+              href: "#Characters",
             },
             {
               text: "Comics",
-              href: "#",
+              href: "#Comics",
             },
             {
               text: "Movies",
-              href: "#",
+              href: "#Movies",
             },
             {
               text: "TV",
-              href: "#",
+              href: "#TV",
             },
             {
               text: "Games",
-              href: "#",
+              href: "#Games",
             },
             {
               text: "Collectibles",
-              href: "#",
+              href: "#Collectibles",
             },
             {
               text: "Videos",
-              href: "#",
+              href: "#Videos",
             },
             {
               text: "Fans",
-              href: "#",
+              href: "#Fans",
             },
             {
               text: "News",
-              href: "#",
+              href: "#News",
             },
             {
               text: "Shop",
-              href: "#",
+              href: "#Shop",
             },
             ],
 
             ShopDc:[
             {
               text: "Shop Dc",
-              href: "#",
+              href: "#Shop-Dc",
             },
             {
               text: "Shop Dc Collectibles",
-              href: "#",
+              href: "# Shop-Dc-Collectibles",
             }  
             ],
 
             DC:[
             {
               text: "Term Of Use",
-              href: "#",
+              href: "#Term-Of-Use",
             },
             {
               text: "Privacy policy(new)",
-              href: "#",
+              href: "#Privacy-policy(new)",
             },
             {
               text: "Ad Choices",
-              href: "#",
+              href: "#Ad-Choices",
             },
             {
               text: "Advertising",
-              href: "#",
+              href: "#Advertising",
             },
             {
               text: "Jobs",
-              href: "#",
+              href: "#Jobs",
             },
             {
               text: "Subscriptions",
-              href: "#",
+              href: "#Subscriptions",
             },
             {
               text: "Talent Workshops",
-              href: "#",
+              href: "#Talent-Workshops",
             },
             {
               text: "CPSC Certificates",
-              href: "#",
+              href: "#CPSC-Certificates",
             },
             {
               text: "Ratings",
-              href: "#",
+              href: "#Ratings",
             },
             {
               text: "Shop Helps",
-              href: "#",
+              href: "#Shop-Helps",
             },
             {
               text: "Contact Us",
-              href: "#",
+              href: "#Contact-Us",
             }, 
             ],
             Sites:[
             {
               text: "DC",
-              href: "#",
+              href: "#DC",
             },
             {
               text: "MAD Magazine",
-              href: "#",
+              href: "#MAD-Magazine",
             },
             {
               text: "DC Kids",
-              href: "#",
+              href: "#DC-Kids",
             },
             {
               text: "DC Universe",
-              href: "#",
+              href: "#DC-Universe",
             },
             {
               text: "DC Power Visa",
-              href: "#",
+              href: "#DC-Power Visa",
             },
             ]
 
