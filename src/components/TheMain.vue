@@ -91,8 +91,14 @@
     
 <template>
   <main>
+    <div class="jumbotron">
+    </div>
 
     <div class="wrap-up">
+      <div class="container">
+        <span class="button">Current Series</span>
+      </div>
+      
       <div id="container-fumetti" class="container d-flex">
         <div v-for="(fumetto, index) in fumetti" class="card" :key="index">
             <ProductCard :image="fumetto.thumb" :title="fumetto.series"/>  
@@ -136,10 +142,28 @@
     
 <style scoped lang="scss">
 @use"../styles/partials/variables" as *;
+
+.button{
+  font-weight: bold;
+  background-color: $color-hover;
+  padding: 10px 50px;
+  position: absolute;
+  top: -20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.jumbotron{
+  height: 500px;
+  background-size: 100% 100%;
+  background-image: url(../assets/jumbotron.jpg);
+  background-repeat: no-repeat;
+
+}
 .wrap-up{
   background-color: $bg-main;
   color: $text-main;
   padding: 30px 0px;
+  position: relative;
 
   & .loading{
       text-align: center;
